@@ -1,5 +1,6 @@
 
 
+import arbaz from "./assets/arbaz.png";
 import React, { useState, useEffect, useRef } from 'react';
 import './App.css'; // We'll define transitions in CSS
 import CVDownloadButton from './CVDownloadButton';
@@ -174,7 +175,7 @@ const App: React.FC = () => {
               <div className="relative hover:animate-smoothJump transition-transform duration-300">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-[#39FF14] shadow-[0_0_30px_rgba(57,255,20,0.5)] ">
                   <img
-                    src="src/assets/arbaz.png"
+                    src={arbaz}
                     alt="Arbaz Ahmed"
                     className="w-full h-full "
                   />

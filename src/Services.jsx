@@ -1,4 +1,10 @@
 import React from 'react'
+import web from "./assets/web.jfif";
+import ai from "./assets/ai.webp";
+import aien from "./assets/aien.jfif";
+import tec from "./assets/tec.jfif";
+import ui from "./assets/ui.jfif";
+import conn from "./assets/conn.jfif";
 
 export const Services = () => {
   return (
@@ -28,37 +34,37 @@ export const Services = () => {
           title: "Web Development",
           description: "Custom website and web application development using modern technologies like React, Angular, and MERN Stack.",
           icon: "fa-laptop-code",
-          image: "src/assets/web.jfif"
+          image: web
         },
         {
           title: "AI Prompt Engineering",
           description: "Specialized services for optimizing GPT-3/GPT-4 and DALL·E prompts to maximize accuracy and performance.",
           icon: "fa-robot",
-          image: "src/assets/ai.webp"
+          image: ai
         },
         {
           title: "AI Integration",
           description: "Enhancing applications with AI capabilities including NLP, content generation, and intelligent automation.",
           icon: "fa-brain",
-          image: "src/assets/aien.jfif"
+          image: aien
         },
         {
           title: "Technical Training",
           description: "Comprehensive training programs in web development, AI tools, and modern programming techniques.",
           icon: "fa-chalkboard-teacher",
-          image: "src/assets/tec.jfif"
+          image: tec
         },
         {
           title: "UI/UX Design",
           description: "Creating intuitive and visually appealing interfaces using Figma, Adobe XD, and modern design principles.",
           icon: "fa-paint-brush",
-          image: "src/assets/ui.jfif"
+          image: ui
         },
         {
           title: "Consulting",
           description: "Strategic guidance on technology adoption, AI implementation, and digital transformation.",
           icon: "fa-handshake",
-          image: "src/assets/conn.jfif"
+          image: conn
         }
       ].map((service, index) => (
         <div key={index} className="group perspective-1000">
